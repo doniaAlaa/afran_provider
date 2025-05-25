@@ -64,7 +64,6 @@ class SuccessTrackingScreen extends StatelessWidget {
                   Expanded(child: Container(child: MainAppButton(
                       onPressed: (){}, title: 'ارسال التقييم'))),
 
-
                   SizedBox(width: 8,),
 
                   Expanded(child: Container(child: MainAppButton(
