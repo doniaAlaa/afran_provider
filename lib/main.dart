@@ -1,5 +1,6 @@
 import 'package:afran_provider/home/screens/app_nav_bar.dart';
 import 'package:afran_provider/splash/spalsh_screen.dart';
+import 'package:afran_provider/track_order/screens/success_tracking_screen.dart';
 import 'package:afran_provider/track_order/screens/track_order_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
 
         useMaterial3: true,
       ),
-      home: TrackOrderScreen(),
+      home: SuccessTrackingScreen(),
+
     );
   }
 }
